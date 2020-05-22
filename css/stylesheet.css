@@ -1,0 +1,245 @@
+
+body {
+    font-family: 'brandon-grotesque', sans-serif;
+    font-size: 18px;
+    color: #222;
+}
+.section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.spc {
+    padding-bottom: 50px;
+}
+img {
+    width: 100%;
+}
+
+/* typo */
+h1, h2, h3 {
+    color: #2a2c67;
+}
+h2 {
+    font-size: 24px;
+    padding-bottom: 10px;
+
+}
+h3 {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+label {
+    color: #000;
+}
+p {
+    max-width: 650px;
+}
+/* -- typo */
+
+/* elements */ 
+.btn-outline-secondary {
+    color: #ffffff;
+    border-color: #ffffff;
+}
+.btn-outline-secondary:hover {
+    color: #2a2c67;
+    background-color: #f0b8b7;
+    border-color: #2a2c67;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+ul li {
+    margin: 5px;
+}
+/* -- elements */ 
+
+/* header */
+header {
+    background: rgb(42,44,103);
+    background: linear-gradient(165deg, rgba(42,44,103,1) 37%, rgba(44,27,91,1) 59%, rgba(240,184,183,1) 98%);
+    background: linear-gradient(337deg, rgba(42,44,103,1) 33%, rgba(57,28,136,1) 68%, rgba(240,184,183,1) 98%);
+    //background: linear-gradient(165deg, rgba(42,44,103,1) 79%, rgba(240,184,183,1) 99%);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.fp header {
+    background: rgb(42,44,103) !important;    
+}
+.logo img {
+    height: 200px;
+    width: auto;
+}
+nav li {
+    list-style: none;
+}
+nav a {
+    text-transform: uppercase;    
+    font-weight: 400;
+    text-decoration: none;
+    color: #ffffff;
+}
+nav a:hover, .nav-link.active {
+    color: #f0b8b7;
+    text-decoration: underline;
+}
+
+@media (min-width: 992px) {
+    nav {
+        height: 200px;
+    }
+    nav ul {
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 0;
+    }
+    nav li {
+        float: left;
+    }
+    h1 {
+        text-align: left;
+    }
+    nav a {
+        display: block;
+        width: 100%;
+        clear:both; 
+    }    
+}
+/* -- header */
+
+/* content frontpage*/ 
+.intro {
+    background: rgb(42,44,103);
+    background: linear-gradient(163deg, rgba(42,44,103,1) 52%, rgba(240,184,183,1) 100%);
+    color: #ffffff;
+    padding: 80px 0;
+}
+.intro .cont {
+    max-width: 650px;
+    font-size: 3em;
+    margin: 0 auto;
+}
+.intro .btn {
+    margin-right: 20px;
+}
+.intro img {
+    max-width: 300px;
+    padding: 50px 0;
+    clear: both;
+    display: block;
+}
+/* -- content frontpage*/ 
+
+/* application */ 
+input, textarea {
+    border-bottom: 1px solid #2a2c67;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+textarea {
+    border: 1px solid #2a2c67;
+}
+@media (max-width: 991px) {
+    textarea {
+        max-width: 350px;
+    }
+}
+.label-fileupload {
+    margin-bottom: 30px;
+}
+.label-fileupload p {
+    margin-bottom: 0;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    background-color: rgba(240, 184, 183,0.2);
+    background-color: rgba(240, 184, 183,0.2);
+}
+input[type="file"] {
+    cursor: pointer;
+    border: 1px solid #2a2c67;
+    padding: 3px;
+}
+.frm-sc {
+    padding-top:50px;
+}
+.fileupload {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+button {
+  border: 1px solid #2a2c67;
+  color: #2a2c67;
+  //background-color: white;
+  padding: 8px 20px;
+  border-radius: 4px;
+}
+.fileupload input[type=file] {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+button {
+    background: rgba(241, 243, 181, 1);
+}
+button:hover {
+    background: rgba(241, 243, 181, 0.5);
+}
+@media (min-width: 768px) {  
+    .frm-sc textarea, .submit {
+        float: right;
+    }
+}
+
+/* -- application */ 
+
+
+/* open call */
+.opencall p {
+    max-width: 440px;
+}
+/* -- open call */
+
+
+/* about */
+/* -- about */
+
+
+
+
+
+.container {
+    
+//background: rgb(42,49,102);
+//background: linear-gradient(152deg, rgba(42,49,102,1) 0%, rgba(202,231,223,1) 67%, rgba(244,171,170,1) 100%);
+}
+
+
+//    font-family: 'quiche-sans', sans-serif;
+
+
+/*  kutt
+
+.info {
+ background: rgb(240,184,183);
+    background: linear-gradient(225deg, rgba(240,184,183,1) 12%, rgba(42,44,103,1) 75%);
+    //background: linear-gradient(197deg, rgba(240,184,183,1) 52%, rgba(42,44,103,1) 100%);
+//background: linear-gradient(238deg, rgba(240,184,183,1) 28%, rgba(255,255,255,1) 100%);
+height: 500px;   
+}
+
+*/
+
+
+
+
+
+
+
+
+
