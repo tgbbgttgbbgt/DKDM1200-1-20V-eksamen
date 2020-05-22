@@ -3,6 +3,7 @@ body {
     font-family: 'brandon-grotesque', sans-serif;
     font-size: 18px;
     color: #222;
+    //background-color: #2a2c67;
 }
 .section {
     padding-top: 80px;
@@ -14,22 +15,32 @@ body {
 img {
     width: 100%;
 }
+.item {
+    padding-bottom: 50px;
+}
 
 /* typo */
 h1, h2, h3 {
     color: #2a2c67;
 }
 h2 {
-    font-size: 24px;
+    font-size: 26px;
     padding-bottom: 10px;
-
 }
 h3 {
-    font-size: 20px;
+    font-size: 22px;
     padding-bottom: 20px;
 }
+a, a:visited, a:active {
+    color: #222;
+    text-decoration: underline;
+}
+a:hover {
+    color: #222;
+    text-decoration: none;
+}
 label {
-    color: #000;
+    color: #222;
 }
 p {
     max-width: 650px;
@@ -37,11 +48,12 @@ p {
 /* -- typo */
 
 /* elements */ 
-.btn-outline-secondary {
+a.btn-outline-secondary {
     color: #ffffff;
     border-color: #ffffff;
+    text-decoration: none;
 }
-.btn-outline-secondary:hover {
+a.btn-outline-secondary:hover {
     color: #2a2c67;
     background-color: #f0b8b7;
     border-color: #2a2c67;
@@ -68,22 +80,29 @@ header {
     background: rgb(42,44,103) !important;    
 }
 .logo img {
-    height: 200px;
-    width: auto;
+    width: 100%;
+    max-width: 250px;
+}
+@media (max-width: 576px) {
+    .logo img {
+        margin-bottom: 30px;
+    }
 }
 nav li {
     list-style: none;
 }
-nav a {
+a.nav-link {
     text-transform: uppercase;    
     font-weight: 400;
     text-decoration: none;
-    color: #ffffff;
+    color: #fff;
 }
 nav a:hover, .nav-link.active {
     color: #f0b8b7;
     text-decoration: underline;
 }
+
+
 
 @media (min-width: 992px) {
     nav {
@@ -113,11 +132,16 @@ nav a:hover, .nav-link.active {
     background: rgb(42,44,103);
     background: linear-gradient(163deg, rgba(42,44,103,1) 52%, rgba(240,184,183,1) 100%);
     color: #ffffff;
-    padding: 80px 0;
+    font-size: 2em;
+}
+@media (min-width: 992px) {
+    .intro {
+        padding: 80px 0;
+        font-size: 3em;
+    }
 }
 .intro .cont {
     max-width: 650px;
-    font-size: 3em;
     margin: 0 auto;
 }
 .intro .btn {
@@ -190,12 +214,11 @@ button {
 button:hover {
     background: rgba(241, 243, 181, 0.5);
 }
-@media (min-width: 768px) {  
+@media (min-width: 992px) {  
     .frm-sc textarea, .submit {
         float: right;
     }
 }
-
 /* -- application */ 
 
 
@@ -207,8 +230,30 @@ button:hover {
 
 
 /* about */
+.about img {
+    max-width: 350px;
+}
+@media (max-width: 576px) {  
+    .about img {
+        max-width: 350px;
+    }
+}
 /* -- about */
 
+/* footer */ 
+footer {
+    border-top: thick double #2a2c67;
+    background-color: #fff;
+}
+footer img {
+    margin: 10px;
+    float:right;
+    width: 40px;
+}
+.some h3 {
+    text-align: right;
+}
+/* -- footer */ 
 
 
 
