@@ -3,7 +3,6 @@ body {
     font-family: 'brandon-grotesque', sans-serif;
     font-size: 18px;
     color: #222;
-    //background-color: #2a2c67;
 }
 .section {
     padding-top: 80px;
@@ -55,7 +54,7 @@ a.btn-outline-secondary {
 }
 a.btn-outline-secondary:hover {
     color: #2a2c67;
-    background-color: #f0b8b7;
+    background-color: #ffedc1;
     border-color: #2a2c67;
 }
 ul {
@@ -65,19 +64,22 @@ ul {
 ul li {
     margin: 5px;
 }
+.box {
+    border: thick double #f0b8b7; 
+    max-width: 650px;
+    padding: 30px;
+}
+.box p {
+    margin-bottom: 0;
+}
 /* -- elements */ 
 
 /* header */
 header {
     background: rgb(42,44,103);
-    background: linear-gradient(165deg, rgba(42,44,103,1) 37%, rgba(44,27,91,1) 59%, rgba(240,184,183,1) 98%);
     background: linear-gradient(337deg, rgba(42,44,103,1) 33%, rgba(57,28,136,1) 68%, rgba(240,184,183,1) 98%);
-    //background: linear-gradient(165deg, rgba(42,44,103,1) 79%, rgba(240,184,183,1) 99%);
     padding-top: 50px;
     padding-bottom: 50px;
-}
-.fp header {
-    background: rgb(42,44,103) !important;    
 }
 .logo img {
     width: 100%;
@@ -180,7 +182,6 @@ textarea {
 input:focus, textarea:focus {
     outline: none;
     background-color: rgba(240, 184, 183,0.2);
-    background-color: rgba(240, 184, 183,0.2);
 }
 input[type="file"] {
     cursor: pointer;
@@ -198,7 +199,6 @@ input[type="file"] {
 button {
   border: 1px solid #2a2c67;
   color: #2a2c67;
-  //background-color: white;
   padding: 8px 20px;
   border-radius: 4px;
 }
@@ -209,10 +209,10 @@ button {
   opacity: 0;
 }
 button {
-    background: rgba(241, 243, 181, 1);
+    background: rgba(255, 237, 193, 1);
 }
 button:hover {
-    background: rgba(241, 243, 181, 0.5);
+    background: rgba(255, 237, 193, 0.4);
 }
 @media (min-width: 992px) {  
     .frm-sc textarea, .submit {
@@ -254,37 +254,3 @@ footer img {
     text-align: right;
 }
 /* -- footer */ 
-
-
-
-
-.container {
-    
-//background: rgb(42,49,102);
-//background: linear-gradient(152deg, rgba(42,49,102,1) 0%, rgba(202,231,223,1) 67%, rgba(244,171,170,1) 100%);
-}
-
-
-//    font-family: 'quiche-sans', sans-serif;
-
-
-/*  kutt
-
-.info {
- background: rgb(240,184,183);
-    background: linear-gradient(225deg, rgba(240,184,183,1) 12%, rgba(42,44,103,1) 75%);
-    //background: linear-gradient(197deg, rgba(240,184,183,1) 52%, rgba(42,44,103,1) 100%);
-//background: linear-gradient(238deg, rgba(240,184,183,1) 28%, rgba(255,255,255,1) 100%);
-height: 500px;   
-}
-
-*/
-
-
-
-
-
-
-
-
-
